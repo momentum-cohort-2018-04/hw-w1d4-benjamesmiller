@@ -48,12 +48,13 @@
     }
     .info {
         float: none;
-        width: 50%;
+        width: 100%;
     }
     .pic {
         float: none;
         display: block;
         margin: auto;
+
     }
     .nav {
         float: none;
