@@ -38,3 +38,24 @@
     margin: auto;
     padding: 10px;
 }
+@media screen and (max-width: 768px) {
+    .social {
+        float:none;
+        max-width: 50px;
+        max-height: 50px;
+        margin: auto;
+        padding: 10px;
+    }
+    .info {
+        float: none;
+        width: 50%;
+    }
+    .pic {
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    .nav {
+        float: none;
+    }
+    }
