@@ -41,6 +41,15 @@
 .padding {
     padding:10px;
 }
+.garden {
+    Max-width: 50%;
+    float: right;
+    padding: 10px;
+}
+.clink {
+    padding: 10px;
+}
+
 @media screen and (max-width: 768px) {
     .social {
         float:none;
