@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    color: rgb(0, 36, 112);
+    background: linear-gradient(rgba(255, 255, 255, 0.562),rgba(255, 255, 255, 0.65)),
+    no-repeat center/cover url(sunsetwall.jpg);
+    margin: auto;
+    padding: 5%;
+}
+.nav {
+    float:right;
+    padding: 10px;
+}
+.clearfix {
+    clear: both;
+}
+.social {
+    float:right;
+    max-width: 50px;
+    max-height: 50px;
+    margin: auto;
+    padding: 10px;
+}
+.info {
+    float:left;
+    width:67%;
+    padding: 10px;
+}
+.pic {
+    float:left;
+    display: block;
+    max-width: 300px;
+    border-radius: 45%;
+    margin: auto;
+    padding: 10px;
+}
+.padding {
+    padding:10px;
+}
+.garden {
+    Max-width: 50%;
+    float: right;
+    padding: 10px;
+}
+.clink {
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .social {
+        float:none;
+        max-width: 50px;
+        max-height: 50px;
+        margin: auto;
+        padding: 10px;
+    }
+    .info {
+        float: none;
+        width: 100%;
+    }
+    .pic {
+        float: none;
+        display: block;
+        margin: auto;
+
+    }
+    .nav {
+        float: none;
+    }
+    }
